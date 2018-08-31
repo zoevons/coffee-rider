@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Restaurant</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Coffee Rider</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">WELCOME</a></li>
+                            <li><a class="color_animation" href="#story">ABOUT</a></li>
+                            <li><a class="color_animation" href="#pricing">FOOD</a></li>
+                            <li><a class="color_animation" href="#beer">COFFEE</a></li>
+                            <!--<li><a class="color_animation" href="#bread">BREAD</a></li>-->
+                            <li><a class="color_animation" href="#featured">LOCATION</a></li>
+                            <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
+                            <li><a class="color_animation" href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <div id="top" class="starter_container bg">
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <h2 class="top-title">Coffee Rider</h2>
+                    <h2 class="white second-title">"Great coffee & great food"</h2>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>About us</h1>
+                    <!--<div class="fa fa-cutlery fa-2x"></div>-->
+                    <p class="desc-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p class="desc-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img class="four-images" src="images/coffee4.jpg" width="250" height="220">
+                       <img class="four-images" src="images/food1.jpg" width="250" height="220">
+                       <div class="img-section-space"></div>
+                       <img class="four-images" src="images/food2.jpg"  width="250" height="220">
+                       <img class="four-images" src="images/food7.jpg"  width="250" height="220">
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Pricing  ============= -->
+
+
+        <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+                <h1><span>Delicious</span> food</h1>
+             </div>
+            <div class="text-content container">
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="all">All</li>
+                                <li class="filter" data-filter="brunch">Brunch</li>
+                                <li class="filter" data-filter="special">Specials</li>
+                                <li class="filter" data-filter="desert">Desert</li>
+                                <!--<li class="filter" data-filter="dinner">Dinner</li>-->
+                            </ul><!-- @end #filter-list -->
+                            <ul id="portfolio">
+                                <li class="item brunch"><img src="images/menu1.jpg" alt="Food" >
+                                    <h2 class="white">$20</h2>
+                                </li>
+
+                                <li class="item brunch special"><img src="images/menu2.jpg" alt="Food" >
+                                    <h2 class="white">$20</h2>
+                                </li>
+                                <li class="item brunch"><img src="images/menu3.jpg" alt="Food" >
+                                    <h2 class="white">$18</h2>
+                                </li>
+                                <li class="item desert"><img src="images/menu4.jpg" alt="Food" >
+                                    <h2 class="white">$15</h2>
+                                </li>
+                                <li class="item brunch"><img src="images/menu5.jpg" alt="Food" >
+                                    <h2 class="white">$20</h2>
+                                </li>
+                                <li class="item special"><img src="images/menu6.jpg" alt="Food" >
+                                    <h2 class="white">$22</h2>
+                                </li>
+                                <li class="item desert"><img src="images/menu7.jpg" alt="Food" >
+                                    <h2 class="white">$32</h2>
+                                </li>
+                                <li class="item special"><img src="images/menu8.jpg" alt="Food" >
+                                    <h2 class="white">$38</h2>
+                                </li>
+                            </ul><!-- @end #portfolio -->
+                        </div><!-- @end #w -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ============ Our Beer  ============= -->
+
+
+        <section id ="beer" class="description_content">
+            <div  class="beer background_content">
+                <h1>Beautifully <span>Blended</span> Coffee</h1>
+            </div>
+            <div class="text-content container">
+                <div class="col-md-5">
+                   <div class="img-section" id="cup">
+                       <img src="images/coffee3.jpg" width="100%">
+                   </div>
+                </div>
+                <br>
+                <div class="col-md-6 col-md-offset-1">
+                    <h1>Our Coffee</h1>
+                    <!--<div class="icon-coffee fa-2x"></div>-->
+                    <p class="desc-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ============ Our Bread  ============= -->
+
+
+       <section id="bread" class=" description_content">
+         </section>
+
+
+
+        <!-- ============ Featured Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content">
+                <h1>Where we <span>are</span></h1>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.440692049077!2d-74.07730888522968!3d40.64221504982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fd443787ee5%3A0x109ab6e81b28d4ed!2s1+Richmond+Terrace%2C+Staten+Island%2C+NY+10301%2C+USA!5e0!3m2!1sen!2ses!4v1535107564850" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- ============ Reservation  ============= -->
+
+        <section  id="reservation"  class="description_content">
+            <div class="reservation background_content">
+                <h1><span>Reserve</span> a Table</h1>
+            </div>
+            <div class="text-content container">
+                <div class="inner contact">
+                    <!-- Form Area -->
+                    <div class="contact-form">
+                        <!-- Form -->
+                        <form id="contact-us" method="post" action="reserve.php">
+                            <!-- Left Inputs -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-6 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="first_name" id="first_name" required="required" class="form" placeholder="First Name" />
+                                                  <input type="text" name="phone" id="phone" required="required" class="form" placeholder="Phone Number" />
+                                                <input type="text" name="datepicker" id="datepicker" required="required" class="form" placeholder="Reservation Date" />
+                                            </div>
+
+                                            <div class="col-lg-6 col-md-6 col-xs-6">
+                                                <!-- Name -->
+                                                <input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" />
+                                                <input type="text" name="guest" id="guest" required="required" class="form" placeholder="Number of Guests" />
+                                                <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
+                                            </div>
+
+                                            <div class="col-xs-6 ">
+                                                <!-- Send Button -->
+                                                <button type="submit" id="submit" name="submit" class="text-center form-btn form-btn">Reserve</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-4 col-md-6 col-xs-12">
+                                        <!-- Message -->
+                                        <div class="right-text">
+                                            <h2 class="hours">Hours</h2><hr>
+                                            <p>Monday to Friday: 8:00 AM - 5:00 PM</p>
+                                            <p>Saturday: 8:00 AM - 6:00 PM</p>
+                                            <p>Sunday: 9:00 AM - 2:00 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Clear -->
+                            <div class="clear"></div>
+                        </form>
+                    </div><!-- End Contact Form Area -->
+                </div><!-- End Inner -->
+            </div>
+        </section>
+
+        <!-- ============ Social Section  ============= -->
+
+        <section class="social_connect">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <span class="social_heading">Follow</span>
+                    <ul class="social_icons">
+                        <li><a class="icon-twitter color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-github color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-linkedin color_animation" href="#" target="_blank"></a></li>
+                        <li><a class="icon-mail color_animation" href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">Call Us</span>
+                    <span class="social_info"><a class="color_animation" href="tel:789-221-9073">(+1) 789-221-9073</a></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="inner contact">
+                            <!-- Form Area -->
+                            <div class="contact-form">
+                                <!-- Form -->
+
+                            </div><!-- End Contact Form Area -->
+                        </div><!-- End Inner -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ Footer Section  ============= -->
+
+      <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; Restaurant 2014, Theme by <a href="https://themewagon.com/">ThemeWagon</a></p></div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Back to <a href="#top">TOP</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Customized by Zoe von Scharfenberg | 2018</p></div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
+</html>
